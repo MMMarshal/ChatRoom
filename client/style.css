@@ -1,0 +1,65 @@
+body{
+  background-color:black;
+  color: white;
+  background-image: url(https://www.xmple.com/wallpaper/green-linear-gradient-1920x1080-c2-242c24-467046-a-240-f-14.svg);
+  margin: auto;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-size:50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+h2{
+  font-size:20px;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+p{
+  text-align: left;
+  margin: auto;
+}
+
+form {
+  padding-top: 25px;
+}
+
+a:link {color: red;}
+a:visited {color: red;}
+
+
+.shape{
+  text-align:center;
+  background-color:rgba(3,78,136,0.7);
+  width:200px;
+  height:60px;
+  line-height:60px;
+  color:white;
+  margin:20px;
+  position:relative;
+}
+
+.shape:before{
+  content:"";
+  width:0px;
+  height:0px;
+  border-top:60px solid rgba(3,78,136,0.7);
+  border-left:60px solid transparent;
+  position:absolute;
+  right:100%;
+  top:0px;
+}
